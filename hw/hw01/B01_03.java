@@ -6,8 +6,7 @@ public class B01_03 {
 				p *= Integer.parseInt(args[i]);
 			}
 			catch (NumberFormatException e) {
-				System.out.println("Аргументи не є цілими числами");
-				System.exit(0);
+				System.out.println("Аргумент \"" + args[i] + "\" не є цілим числом.");
 			}
         }
         System.out.println(p);
